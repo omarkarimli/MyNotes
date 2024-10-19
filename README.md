@@ -61,3 +61,10 @@ This project is licensed under the [MIT License](LICENSE). See the LICENSE file 
   <img src="screenshots/Screenshot_newnote.png" width="256" />
   <img src="screenshots/Screenshot_updatenote.png" width="256" />
 </div>
+
+<div style="margin-top: 20px;">
+  <video width="256" controls>
+    <source src="screenshots/Screen_recording_mynotes.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+</div>
