@@ -57,3 +57,4 @@ This project is licensed under the [MIT License](LICENSE). See the LICENSE file 
 ## Screenshots
 
 ![Home Page](screenshots/Screenshot_home.png)
+<img src="screenshots/Screenshot_home.png" width="300" />
