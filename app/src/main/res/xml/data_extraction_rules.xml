@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-   Sample data extraction rules file; uncomment and customize as necessary.
+   Data extraction rules file for MyNotes app.
    See https://developer.android.com/about/versions/12/backup-restore#xml-changes
    for details.
 -->
-<data-extraction-rules>
+<data-extraction-rules xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Cloud Backup Rules -->
     <cloud-backup>
-        <!-- Include specific data in cloud backup -->
-        <include domain="file" path="myapp/data/" />
+        <!-- Include specific data in cloud backup for MyNotes app -->
+        <include domain="file" path="MyNotes/data/" />
 
-        <!-- Exclude specific data from cloud backup -->
-        <exclude domain="sharedpref" path="myapp/prefs/temp_prefs.xml" />
+        <!-- Exclude specific preferences from cloud backup for MyNotes app -->
+        <exclude domain="sharedpref" path="MyNotes/prefs/temp_prefs.xml"
+            tools:ignore="FullBackupContent" />
     </cloud-backup>
 
     <!-- Device Transfer Rules -->
     <device-transfer>
-        <!-- Include specific data in device transfer -->
-        <include domain="file" path="myapp/important/" />
+        <!-- Include specific data in device transfer for MyNotes app -->
+        <include domain="file" path="MyNotes/important/" />
 
-        <!-- Exclude specific data from device transfer -->
-        <exclude domain="sharedpref" path="myapp/prefs/cache.xml" />
+        <!-- Exclude specific preferences from device transfer for MyNotes app -->
+        <exclude domain="sharedpref" path="MyNotes/prefs/cache.xml" />
     </device-transfer>
 
 </data-extraction-rules>
