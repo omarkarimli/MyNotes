@@ -56,7 +56,8 @@ This project is licensed under the [MIT License](LICENSE). See the LICENSE file 
 
 ## Screenshots
 
-<img src="screenshots/Screenshot_home.png" width="256" />
-<img src="screenshots/Screenshot_newnote.png" width="256" />
-<img src="screenshots/Screenshot_updatenote.png" width="256" />
-<img src="screenshots/Screen_recording_mynotes.webm" width="256" />
+<div style="display: flex; justify-content: space-between;">
+  <img src="screenshots/Screenshot_home.png" width="256" />
+  <img src="screenshots/Screenshot_newnote.png" width="256" />
+  <img src="screenshots/Screenshot_updatenote.png" width="256" />
+</div>
