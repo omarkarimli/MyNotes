@@ -1,0 +1,61 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyNotes" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lilac</item>    <!-- App Bar, Bottom Navigation Icon, Text -->
+        <item name="colorPrimaryVariant">@color/lilac</item> <!-- Status Bar bg -->
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lavender</item>  <!-- Button -->
+        <item name="colorSecondaryVariant">@color/mauve</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Error colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/onError</item>
+
+        <!--- Floating Action Button (FAB) -->
+        <item name="floatingActionButtonStyle">@style/FloatingActionButtonStyle</item>
+
+        <!--- Card View -->
+        <item name="materialCardViewStyle">@style/CardStyle</item>
+    </style>
+
+    <style name="FloatingActionButtonStyle" parent="Widget.Design.FloatingActionButton">
+        <item name="shapeAppearanceOverlay">@style/FabShapeStyle</item>
+    </style>
+
+    <style name="FabShapeStyle" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">30%</item>
+    </style>
+
+    <style name="TitleMedium" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/poppins</item>
+    </style>
+    <style name="BodyMedium" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <!-- Card Background Color -->
+        <item name="cardBackgroundColor">@color/white</item>
+
+        <!-- Card Elevation (shadow effect) -->
+        <item name="cardElevation">2dp</item>
+
+        <!-- Card Corner Radius -->
+        <item name="cardCornerRadius">12dp</item>
+
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:layout_marginVertical">4dp</item>
+    </style>
+
+    <style name="Theme.MyNotes" parent="Base.Theme.MyNotes" />
+</resources>
